@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Booststrap y enlace a hoja de estilos-->
+    <link rel="stylesheet"  href="modHosAdminCSS.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!--Tipografias-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+    <title>Administrar Personal</title>
+</head>
+<body id="body">
+    <div id="fonditoBlanco" class="container">
+        <div class="cEstilo">
+            <p id="frontTipoLetra" class="estiloNUs poppins">Epidemiologia</p>
+        <button id="btnAgregarEpidemiologo" >Agregar especialista</button>
+        </div>
+        <section class="container">
+            <table>
+                <thead>
+                    <tr class="cabezaTabla inter">
+                        <th class="nEsp">Especilista</th>
+                        <th>Cedula</th>
+                        <th>Email</th>
+                        <th>Estado</th>
+                        <th><img src="trash.png" id="iconEliminar" alt="iconEliminar"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="infoGenT">
+                        <th class="nEsp">Torres Cuevas Cecilia</th>
+                        <th>129847</th>
+                        <th>correo</th>
+                        <th>Pendiente</th>
+                        <th>-</th>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!--De igual manera aqui depende mucho de si el administrador anexa o no mas personal para ambos casos y como ya sabemos dependiendo de cuentos anexe seran los que se veran en cada sección-->
+        <div class="cEstilo">
+            <p id="frontTipoLetra" class="estiloNUs poppins">Personal hospitalario</p>
+        <button id="btnAgregarPersonalH">Agregar personal</button>
+        </div>
+        <section class="container">
+            <table>
+                <thead>
+                    <tr class="cabezaTabla inter">
+                        <th class="nEsp
+                        ">Especilista</th>
+                        <th>Cedula</th>
+                        <th>Email</th>
+                        <th>Estado</th>
+                        <th><img src="trash.png" id="iconEliminar" alt="iconEliminar"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="infoGenT">
+                        <th class="nEsp">Torres Cuevas Cecilia</th>
+                        <th>129847</th>
+                        <th>correo</th>
+                        <th>Pendiente</th>
+                        <th>-</th>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+</body>
+</html>

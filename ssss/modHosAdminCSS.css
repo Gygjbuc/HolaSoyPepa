@@ -1,0 +1,155 @@
+/*Tipografias usadas*/
+
+.inter{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.poppins{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+.instrument-sans{
+    font-family: "Instrument Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/*Estilo de los componentes*/
+
+#body{
+    background-color: #2C2C2C;
+}
+
+.letraBienenida{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color:white;
+}
+
+.letraLeyenda{
+    color:#EDAD53;
+    font-size: 2rem;
+}
+
+#hospitalAdminPerfil{
+    color:#BF6812;
+    font-size: 1.5rem;
+}
+
+.subInformacion{
+    color:#757575;
+}
+
+#nombreUsuario{
+    color: #BF6812;
+    font-size: 1.2rem;
+}
+
+#tituloMiniReportePerfil{
+    font-size: 1.1rem;
+    font-weight:600;
+}
+
+.infoGeneral{
+    margin-left:3rem;
+}
+
+.estiloNUs{
+    color:#D87410;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.cEstilo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem; 
+}
+
+#btnAgregarPersonalH , #btnAgregarEpidemiologo{
+    border-radius: 0.3rem;
+    color: white;
+    padding: 2px 2px 3px 2px;
+    background-color:#D87410;
+    font-weight: 600;
+    width: 10rem;
+    font-size: 10px;
+    border : none;
+}
+
+.cabezaTabla{
+    color:#C3680C;
+    font-weight: 90;
+}
+
+.infoGenT{
+    font-weight: lighter;
+    font-size: 0.8rem;
+}
+
+/*Estilo en contenedores*/
+
+#pantallaInicioAdminH{
+    margin: 4rem 0 4rem 4rem;
+}
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+  
+.icon {
+    margin-right: 20px;
+}
+  
+.icon img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #FFB144; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#seccionPerfil ,#fonditoBlanco{
+    margin-top: 4rem;
+    padding: 2.8rem 4rem 2rem 4rem;
+    background-color: white;
+    border-radius: 2rem 2rem 0 0;
+}
+
+.report{
+    border: 1.3px solid #D9D9D9;
+    border-radius: 1rem;
+    /* arriba , derecha , abajo , izquierda*/
+    margin:2rem 0 1.4rem 0;
+    padding: 1.5rem;
+}
+
+th{
+    padding: 0.5rem;
+    width: 10%;
+}
+
+.nEsp{
+    width:20%;
+    text-align: left;
+}
+
+table {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #C8BFBF;
+    border-collapse: separate; /* */
+    border-radius: 20px; /**/
+    overflow: hidden; /**/
+    text-align: center;
+}
